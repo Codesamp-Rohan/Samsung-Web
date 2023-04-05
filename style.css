@@ -112,7 +112,7 @@ ul>li{
 }
 .video-player{
     top: 0%;
-    position: absolute;
+    position: relative;
     z-index: 1;
 }
 .card1{
@@ -121,7 +121,7 @@ ul>li{
     display: flex;
     flex-direction: column;
     gap: 40px;
-    position: relative;
+    position: absolute;
     z-index: 2;
     flex-wrap: wrap;
 }
