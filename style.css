@@ -105,3 +105,33 @@ ul>li{
     width: 20px;
     cursor: pointer;
 }
+.container1{
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+}
+.video-player{
+    top: 0%;
+    position: absolute;
+    z-index: 1;
+}
+.card1{
+    top: 240px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    position: relative;
+    z-index: 2;
+    flex-wrap: wrap;
+}
+.card1>h1{
+    font-size: 60px;
+}
+.card1>p{
+    font-weight: 100;
+}
+.card_para{
+    position: relative;
+    z-index: 2;
+}
