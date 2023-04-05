@@ -1,3 +1,9 @@
+function dark_mode(){
+    var element = document.body;
+    element.classList.toggle("darkmode");
+}
+
+
 function hoverdown_shop(){
     document.getElementById("menu_container_shop").style.top = "80px";
 }
