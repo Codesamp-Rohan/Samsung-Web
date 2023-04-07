@@ -1,9 +1,3 @@
-function dark_mode(){
-    var element = document.body;
-    element.classList.toggle("darkmode");
-}
-
-
 function hoverdown_shop(){
     document.getElementById("menu_container_shop").style.top = "80px";
 }
@@ -51,4 +45,40 @@ function hoverdown_st(){
 }
 function hoverup_st(){
     document.getElementById("menu_container_st").style.top = "-270px";
+}
+
+function image_toggle1(){
+    document.getElementById("cont_img5").style.display = "none";
+    document.getElementById("cont_img1").style.display = "block";
+    document.getElementById("cont_img2").style.display = "none";
+    document.getElementById("cont_img3").style.display = "none";
+    document.getElementById("cont_img4").style.display = "none";
+}
+function image_toggle2(){
+    document.getElementById("cont_img5").style.display = "none";
+    document.getElementById("cont_img2").style.display = "block";
+    document.getElementById("cont_img1").style.display = "none";
+    document.getElementById("cont_img3").style.display = "none";
+    document.getElementById("cont_img4").style.display = "none";
+}
+function image_toggle3(){
+    document.getElementById("cont_img5").style.display = "none";
+    document.getElementById("cont_img3").style.display = "block";
+    document.getElementById("cont_img2").style.display = "none";
+    document.getElementById("cont_img1").style.display = "none";
+    document.getElementById("cont_img4").style.display = "none";
+}
+function image_toggle4(){
+    document.getElementById("cont_img5").style.display = "none";
+    document.getElementById("cont_img4").style.display = "block";
+    document.getElementById("cont_img3").style.display = "none";
+    document.getElementById("cont_img2").style.display = "none";
+    document.getElementById("cont_img1").style.display = "none";
+}
+function image_toggle5(){
+    document.getElementById("cont_img5").style.display = "block";
+    document.getElementById("cont_img4").style.display = "none";
+    document.getElementById("cont_img3").style.display = "none";
+    document.getElementById("cont_img2").style.display = "none";
+    document.getElementById("cont_img1").style.display = "none";
 }
