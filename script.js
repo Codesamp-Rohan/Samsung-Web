@@ -82,3 +82,106 @@ function image_toggle5(){
     document.getElementById("cont_img2").style.display = "none";
     document.getElementById("cont_img1").style.display = "none";
 }
+
+
+
+
+function image1_toggle1(){
+    document.getElementById("cont4_img5").style.display = "none";
+    document.getElementById("cont4_img1").style.display = "block";
+    document.getElementById("cont4_img2").style.display = "none";
+    document.getElementById("cont4_img3").style.display = "none";
+    document.getElementById("cont4_img4").style.display = "none";
+}
+function image2_toggle2(){
+    document.getElementById("cont4_img5").style.display = "none";
+    document.getElementById("cont4_img2").style.display = "block";
+    document.getElementById("cont4_img1").style.display = "none";
+    document.getElementById("cont4_img3").style.display = "none";
+    document.getElementById("cont4_img4").style.display = "none";
+}
+function image3_toggle3(){
+    document.getElementById("cont4_img5").style.display = "none";
+    document.getElementById("cont4_img3").style.display = "block";
+    document.getElementById("cont4_img2").style.display = "none";
+    document.getElementById("cont4_img1").style.display = "none";
+    document.getElementById("cont4_img4").style.display = "none";
+}
+function image4_toggle4(){
+    document.getElementById("cont4_img5").style.display = "none";
+    document.getElementById("cont4_img4").style.display = "block";
+    document.getElementById("cont4_img3").style.display = "none";
+    document.getElementById("cont4_img2").style.display = "none";
+    document.getElementById("cont4_img1").style.display = "none";
+}
+function image5_toggle5(){
+    document.getElementById("cont4_img5").style.display = "block";
+    document.getElementById("cont4_img4").style.display = "none";
+    document.getElementById("cont4_img3").style.display = "none";
+    document.getElementById("cont4_img2").style.display = "none";
+    document.getElementById("cont4_img1").style.display = "none";
+}
+
+
+function image11_toggle1(){
+    document.getElementById("cont5_img5").style.display = "none";
+    document.getElementById("cont5_img1").style.display = "block";
+    document.getElementById("cont5_img2").style.display = "none";
+    document.getElementById("cont5_img3").style.display = "none";
+    document.getElementById("cont5_img4").style.display = "none";
+}
+function image22_toggle2(){
+    document.getElementById("cont5_img5").style.display = "none";
+    document.getElementById("cont5_img2").style.display = "block";
+    document.getElementById("cont5_img1").style.display = "none";
+    document.getElementById("cont5_img3").style.display = "none";
+    document.getElementById("cont5_img4").style.display = "none";
+}
+function image33_toggle3(){
+    document.getElementById("cont5_img5").style.display = "none";
+    document.getElementById("cont5_img3").style.display = "block";
+    document.getElementById("cont5_img2").style.display = "none";
+    document.getElementById("cont5_img1").style.display = "none";
+    document.getElementById("cont5_img4").style.display = "none";
+}
+function image44_toggle4(){
+    document.getElementById("cont5_img5").style.display = "none";
+    document.getElementById("cont5_img4").style.display = "block";
+    document.getElementById("cont5_img3").style.display = "none";
+    document.getElementById("cont5_img2").style.display = "none";
+    document.getElementById("cont5_img1").style.display = "none";
+}
+function image55_toggle5(){
+    document.getElementById("cont5_img5").style.display = "block";
+    document.getElementById("cont5_img4").style.display = "none";
+    document.getElementById("cont5_img3").style.display = "none";
+    document.getElementById("cont5_img2").style.display = "none";
+    document.getElementById("cont5_img1").style.display = "none";
+}
+
+
+
+function image111_toggle1(){
+    document.getElementById("cont6_img1").style.display = "block";
+    document.getElementById("cont6_img2").style.display = "none";
+    document.getElementById("cont6_img3").style.display = "none";
+    document.getElementById("cont6_img4").style.display = "none";
+}
+function image222_toggle2(){
+    document.getElementById("cont6_img2").style.display = "block";
+    document.getElementById("cont6_img1").style.display = "none";
+    document.getElementById("cont6_img3").style.display = "none";
+    document.getElementById("cont6_img4").style.display = "none";
+}
+function image333_toggle3(){
+    document.getElementById("cont6_img3").style.display = "block";
+    document.getElementById("cont6_img2").style.display = "none";
+    document.getElementById("cont6_img1").style.display = "none";
+    document.getElementById("cont6_img4").style.display = "none";
+}
+function image444_toggle4(){
+    document.getElementById("cont6_img4").style.display = "block";
+    document.getElementById("cont6_img3").style.display = "none";
+    document.getElementById("cont6_img2").style.display = "none";
+    document.getElementById("cont6_img1").style.display = "none";
+}
