@@ -46,6 +46,14 @@ function hoverdown_st(){
 function hoverup_st(){
     document.getElementById("menu_container_st").style.top = "-270px";
 }
+function hoverdown_ls() {
+    var x = document.getElementById("menu_container_ls");
+    if (x.style.display === "block") {
+      x.style.display = "none";
+    } else {
+      x.style.display = "block";
+    }
+  }
 
 function image_toggle1(){
     document.getElementById("cont_img5").style.display = "none";

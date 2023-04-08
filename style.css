@@ -95,6 +95,26 @@ ul>li{
     background-color: black;
     color: white;
 }
+.menu_container{}
+#menu_container_ls{
+    padding-left: 10px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    z-index: 5;
+    display: none;
+    top: 80px;
+}
+.loginsignup{}
+.container_list>a{
+    font-family: system-ui;
+    font-size: 15px;
+    text-decoration: none;
+    color: black;
+    font-weight: 400;
+}
+.container_list>a:hover{
+    font-weight: 600;
+}
 .menu_list_right{
     display: flex;
     align-items: center;
